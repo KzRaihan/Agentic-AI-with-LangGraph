@@ -1,0 +1,17 @@
+# Core
+langchain
+langchain-core
+langgraph
+
+# LangSmith
+langsmith
+
+# Environment
+python-dotenv
+
+# UI
+streamlit
+gradio
+
+# Database
+aiosqlite
