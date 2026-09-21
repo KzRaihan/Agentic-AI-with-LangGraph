@@ -351,8 +351,8 @@ The exact model providers and supporting libraries may vary between individual p
 Agentic-AI-with-LangGraph/
 │
 ├── 01_Foundation_of_Agentic_AI/
-│   ├── 01_What_is_Agentic_AI/
-│   ├── 02_Generative_vs_Agentic_AI/
+│   ├── 01_Generative_vs_Agentic_AI/
+│   ├── 02_What_is_Agentic_AI/
 │   ├── 03_LangChain_vs_LangGraph/
 │   └── 04_LangChain_Core_Components/
 │
