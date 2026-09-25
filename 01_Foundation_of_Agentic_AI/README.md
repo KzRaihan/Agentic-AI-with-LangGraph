@@ -8,3 +8,4 @@ This module introduces the fundamental concepts behind Agentic AI.
 - What is Agentic AI?
 - LangChain vs LangGraph
 - LangChain Core Components
+- LangGraph Core Components

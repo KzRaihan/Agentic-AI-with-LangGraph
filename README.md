@@ -354,7 +354,8 @@ Agentic-AI-with-LangGraph/
 │   ├── 01_Generative_vs_Agentic_AI/
 │   ├── 02_What_is_Agentic_AI/
 │   ├── 03_LangChain_vs_LangGraph/
-│   └── 04_LangChain_Core_Components/
+│   ├── 04_LangChain_Core_Components/
+│   └── 05_LangGraph_Core_Components/
 │
 ├── 02_LangGraph_Fundamentals/
 │   ├── 01_Sequential_Workflow/
