@@ -430,6 +430,7 @@ pip install -r requirements.txt
 
 
 # 📚 References
+* [Agentic AI using LangGraph — YouTube Playlist](https://www.youtube.com/watch?v=yC36gN-rqjo&list=PLKnIA16_RmvYsvB8qkUQuJmJNuiCUJFPL)
 
 * [LangGraph Documentation](https://docs.langchain.com/oss/python/langgraph/)
 * [LangChain Documentation](https://docs.langchain.com/)
