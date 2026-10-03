@@ -23,6 +23,7 @@ llm =  ChatGroq(
     temperature=0
 )
 
+# Node__1: Define chat_node
 def chat_node(state: ChatState) -> dict:
     # Extract the user query from the state
     messages = state['messages']
@@ -36,7 +37,7 @@ def chat_node(state: ChatState) -> dict:
     }
 
 #### Step 3: Build Graph
-# initialize the Memory
+# initialize the Memory_Save into RAM
 checkpointer = MemorySaver()
 
 # initial an object of graph
@@ -54,7 +55,7 @@ graph.add_edge("chat_node", END)
 chatbot = graph.compile(checkpointer=checkpointer)
 
 #### Step 5 : Execute the graph
-# Memory add
+# Add Memory for each user query
 thread_id = "1"
 
 while True:
@@ -64,6 +65,7 @@ while True:
     if user_message.strip().lower() in ['exit', 'quit', 'bye']:
         break
 
+    # configuration the user thread_id
     config = {
         "configurable":{
             "thread_id": thread_id
