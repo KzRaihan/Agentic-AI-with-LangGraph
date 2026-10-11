@@ -35,6 +35,7 @@ if user_input:
     # append the user message to the dic
     st.session_state['message_history'].append({"role": "user", "content": user_input})
 
+    # for Display the user message
     with st.chat_message('user'):
         st.text(user_input)
 

@@ -13,7 +13,7 @@ load_dotenv()
 
 #### Step 2: Define the State
 class ChatState(TypedDict):
-    messages: Annotated[list[BaseMessage], add_messages]
+    messages: Annotated[list[BaseMessage], add_messages] # Reducer
 
 
 #### Step 4: Define the Nodes
