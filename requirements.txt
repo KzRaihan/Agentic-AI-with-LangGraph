@@ -17,6 +17,10 @@ openai
 langchain-openai
 tiktoken
 
+# Hugging Face Embeddings
+langchain-huggingface
+sentence-transformers
+
 # ============================================================
 # LangGraph Persistence and Database
 # ============================================================
