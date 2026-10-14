@@ -5,12 +5,15 @@
 # Objective:
 # Build a PDF-based RAG application and inspect its execution
 # traces in the LangSmith interface.
-#
+
 # Ingestion:
 # PDF -> Loader -> Text Splitter -> Embeddings -> FAISS
 #
 # Retrieval and Generation:
 # Query -> Retriever -> Context + Query -> Prompt -> LLM -> Answer
+
+# here, only trace the chain portion
+# Don't trace the loader, Splitter, Embedding, and other
 # ===============================================================
 
 import os
