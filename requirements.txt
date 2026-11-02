@@ -78,3 +78,6 @@ youtube-transcript-api
 # ============================================================
 protobuf
 PyYAML
+
+langchain-tavily==0.2.18
+
